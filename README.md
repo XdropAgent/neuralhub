@@ -8,8 +8,9 @@
 </p>
 
 <p align="center">
-  <a href="#getting-started">🚀 Getting Started</a> ·
-  <a href="https://github.com/XdropAgent/neuralhub">📦 GitHub</a>
+  <a href="https://neuralhub-red.vercel.app">🔗 Live Demo</a> ·
+  <a href="https://github.com/XdropAgent/neuralhub">📦 GitHub</a> ·
+  <a href="#getting-started">🚀 Getting Started</a>
 </p>
 
 ---
