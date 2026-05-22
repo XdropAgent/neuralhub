@@ -288,7 +288,7 @@ function Navbar() {
             </a>
           ))}
           <a
-            href="https://github.com/NousResearch/neuralhub"
+            href="https://github.com/XdropAgent/neuralhub"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -401,7 +401,7 @@ function HeroSection() {
             ⚡ Quick Start
           </a>
           <a
-            href="https://github.com/NousResearch/neuralhub"
+            href="https://github.com/XdropAgent/neuralhub"
             target="_blank"
             rel="noopener noreferrer"
             style={s.btnSecondary}
@@ -427,9 +427,9 @@ function HeroSection() {
           flexWrap: 'wrap',
         }}>
           {[
-            { label: 'GitHub Stars', value: '12.4k' },
-            { label: 'Agents Deployed', value: '2.1M+' },
             { label: 'Providers', value: '30+' },
+            { label: 'Avg Deploy Time', value: '<5min' },
+            { label: 'Models Supported', value: '8+' },
             { label: 'Uptime', value: '99.97%' },
           ].map(stat => (
             <div key={stat.label} style={{ textAlign: 'center' }}>
