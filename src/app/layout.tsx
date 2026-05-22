@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./globals.css";
 
 export const metadata: Metadata = {
   title: "NeuralHub — Deploy AI Agents at Scale",
@@ -9,7 +8,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen antialiased">
+      <body style={{ margin: 0, padding: 0 }}>
         {children}
       </body>
     </html>
